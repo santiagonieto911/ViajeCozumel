@@ -4,7 +4,7 @@ const app = express();
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-app.use('/', require('./routes/index'));
+app.use('/', require('./routes/vacaciones.routes'));
 
 const port = 3000;
 
